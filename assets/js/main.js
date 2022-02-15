@@ -129,7 +129,7 @@ function manipulate() {
 
     checkNumber.forEach(e => {
         if (e % 3 == 0) {
-            console.log(e * 100);
+            console.log(e + 100);
         } else {
             // console.log(e);
         }

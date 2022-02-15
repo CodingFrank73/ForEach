@@ -127,13 +127,20 @@ let checkNumber = [
 
 function manipulate() {
 
+    let newNumbers = [];
+
     checkNumber.forEach(e => {
         if (e % 3 == 0) {
-            console.log(e + 100);
+            let a = Number(e + 100);
+            console.log(a);
+            newNumbers.push(a);
+            // console.log(e + 100);
         } else {
-            // console.log(e);
+            newNumbers.push(e);
         }
     });
+
+    console.log(newNumbers);
 }
 
 manipulate();
